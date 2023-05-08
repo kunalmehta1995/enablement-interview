@@ -16,23 +16,32 @@
 }
 .left-column-50 {
   /* height: 92%; */
-  width: 49.55%;
+  width: 55.00%;
   float: left;
-  padding-top: 1em;
+
 }
 .right-column-50 {
-  width: 49.55%;
+  width: 44.55%;
   float: right;
-  padding-top: 1em;
+  padding-top: 5em;
 }
 .pull-left {
   float: left;
   width: 47%;
 }
-.pull-right {
-  float: right;
-  width: 47%;
+
+.two-column-left {
+  width: 45%;
+  float: left;
+  height: 30%;
 }
+
+.two-column-right {
+  width: 45%;
+  float: right;
+  height: 75%;
+}
+
 .pull-right + * {
   clear: both;
 }

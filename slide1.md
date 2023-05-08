@@ -1,14 +1,14 @@
-layout: true
-class: img-right
-background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
-background-size: cover
-name: slide1
 
-## Slide 1
+name: title
+class: title, smokescreen, shelf
+background-image: url(./assets/images/slide_templates/Academy-title.png)
+count: true
 
-![scale:50%](./assets/logos/logo_terraform.png)
+# Packer and Terraform Integration
+### - Kunal Mehta, Sr. Enablement Engineer at Hashicorp
 
-This slide uses the `img-right` class and displays an image
+<!-- Image example -->
+![:scale 20%](./assets/logos/HashiCorp_Enterprise_Academy_Vertical_White_RGB.png)
 
 ???
 
