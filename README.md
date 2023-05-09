@@ -11,8 +11,8 @@ This Presentation is to address "Packer and Terraform Integration"
 
 3. setup.sh file is used for setting an environment variable with my github username in /root/.bash_profile
    1. Writes the following code to a file called config.hcl
-      cluster_addr  = "https://<HOSTNAME>:8201"
-      api_addr      = "https://<HOSTNAME>:8200"
-      disable_mlock = true
+      1. cluster_addr  = "https://<HOSTNAME>:8201"
+      2. api_addr      = "https://<HOSTNAME>:8200"
+      3. disable_mlock = true
    2. Replaces <HOSTNAME> value vault-server.hashicorp.com in config.hcl
 
